@@ -30,7 +30,7 @@ The following are the command-line arguments:
 
 Example:
 ```
-python ABSA-emb-gpu-final-newarch3.py --lr 0.0001 --l2 0.0001 --dataset Laptop --hops 3 --epochs 30 --hiddem-size 400 --output-size 300 --dropout-p 0.1 --dropout-lstm 0.2
+python ABSA-emb-gpu-final-newarch3.py --lr 0.001 --l2 0.0001 --dataset Laptop --hops 3 --epochs 30 --hidden-size 400 --output-size 300 --dropout-p 0.1 --dropout-lstm 0.2
 ```
 ## Citation
 If you find this code useful please cite the following in your work:
